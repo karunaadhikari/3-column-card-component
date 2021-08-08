@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+.sedans {
+  color: white;
+  background-color: hsl(31, 95%, 64%);
+  height: 400px;
+  width: 345px;
+  margin: 0em auto;
+  padding: 3em;
+}
+
+.sedans-button {
+  border-radius: 25px;
+  padding: 0.6em;
+  border: 0em;
+}
+
+.suvs {
+  color: white;
+  background-color: hsl(184, 73%, 32%);
+  height: 400px;
+  width: 345px;
+  margin: 0em auto;
+  padding: 3em;
+}
+.suvs-button {
+  border-radius: 25px;
+  padding: 0.6em;
+  border: 0em;
+}
+
+.luxury {
+  color: white;
+  background-color: hsl(179, 66%, 16%);
+  height: 400px;
+  width: 345px;
+  margin: 0em auto;
+  padding: 3em;
+}
+
+.luxury-button {
+  border-radius: 25px;
+  padding: 0.6em;
+  border: 0em;
+}
+
+.sedans-heading,
+.suvs-heading,
+.luxury-heading {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 30px;
+}
+.sedans-button {
+  color: hsl(31, 95%, 64%);
+  background-color: white;
+}
+.sedans-button:hover {
+  background-color: hsl(31, 95%, 64%);
+  border: 1px solid white;
+  color: white;
+}
+
+.suvs-button {
+  color: hsl(184, 73%, 32%);
+  background-color: white;
+}
+.suvs-button:hover {
+  background-color: hsl(184, 73%, 32%);
+  border: 1px solid white;
+  color: white;
+}
+
+.luxury-button {
+  color: hsl(179, 66%, 16%);
+  background-color: white;
+}
+.luxury-button:hover {
+  background-color: hsl(179, 66%, 16%);
+  border: 1px solid white;
+  color: white;
+}
+
+@media (min-width: 500px) {
+  .card {
+    display: flex;
+    flex-direction: row;
+    margin: 11em 13em;
+  }
+}
